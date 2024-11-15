@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TELEBIRRIA</title>
+</head>
+<body>
+    <h1>TELEBIRRIA</h1>
+    <p>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</p>
+    
+    <form>
+        <fieldset>
+            <legend>Datos personales y de envío</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+            
+            <label for="domicilio">Domicilio</label>
+            <input type="text" id="domicilio" name="domicilio"><br><br>
+            
+            <label for="localidad">Localidad</label>
+            <input type="text" id="localidad" name="localidad"><br><br>
+            
+            <label for="codigo_postal">Código postal</label>
+            <input type="text" id="codigo_postal" name="codigo_postal"><br><br>
+            
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Elija la opción de entrega</legend>
+            <input type="radio" id="recoger" name="entrega" value="recoger">
+            <label for="recoger">Recoger en el local</label><br>
+            
+            <input type="radio" id="domicilio" name="entrega" value="domicilio">
+            <label for="domicilio">Enviar a domicilio</label>
+        </fieldset>
+        <fieldset>
+            <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+            <input type="checkbox" id="oferta_domicilio" name="oferta_domicilio">
+            <label for="oferta_domicilio">Enviar al domicilio</label><br>
+            
+            <input type="checkbox" id="oferta_email" name="oferta_email">
+            <label for="oferta_email">Enviar por email</label>
+        </fieldset>
+        <fieldset>
+            <legend>Elija su menú</legend>
+            <label for="tamano">Tamaño del bocadillo</label>
+            <select id="tamano" name="tamano">
+                <option>Pequeño</option>
+                <option>Mediano</option>
+                <option>Grande</option>
+                <option>Enorme</option>
+            </select><br><br>
+            <label for="contenido">Contenido del bocadillo</label>
+            <select id="contenido" name="contenido" multiple>
+            <option>Anchoas</option>
+            <option>Calamares</option>
+            <option>Mejillones</option>
+            <option>Jamón</option>
+            </select><br><br>
+            <label for="sugerencias">Puede añadir alguna sugerencia</label><br>
+            <textarea id="sugerencias" name="sugerencias" placeholder="Por ejemplo que calienten el pan, etc."></textarea>
+        </fieldset>
+        
+        <br>
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</body>
+</html>
