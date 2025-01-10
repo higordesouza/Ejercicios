@@ -1,0 +1,16 @@
+#numero1{
+    border: solid 3px black;
+    width: 50em;
+    margin-bottom: 20px;
+}
+#numero2{
+    border: solid 3px red;
+    width: 33em;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#numero3{
+    border: solid 3px blue;
+    width: 25em;
+    font-size: 0.8em;
+}

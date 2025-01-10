@@ -1,0 +1,48 @@
+#cabecera{
+    background-color: rgb(190, 21, 21);
+    border: solid 1px white;
+    padding: 10px;
+    height: 110px;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    float: left;
+    color: white;
+}
+#menu {
+    background-color: rgb(231, 164, 229);
+    border: solid 1px white;
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: transparent;
+    color: rgb(132, 100, 154);
+    border-color: rgb(195, 142, 213);
+}
+#scroll {
+    background-color: rgb(241, 175, 219);
+    overflow: scroll;
+    padding: 20px;
+    height: 400px;
+}
+#footer{
+    background-color: rgb(206, 193, 193);
+    padding: 20px;
+    clear: both;
+}
+img {
+    margin: 10px;
+    float: left;
+    width: 500px;
+    border: solid 2px rgb(193, 193, 193);
+    padding: 5px;
+}
+#contenedor{
+    margin: auto;
+    width: 80%;
+}
