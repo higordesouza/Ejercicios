@@ -1,0 +1,12 @@
+p{
+    color: blue;
+  border: solid 2px black;
+  background-color: grey;
+}
+p.amarillo{
+    border-color: yellow;
+    background-color: yellow;
+}
+#sexto{
+font-size: 2em;
+}
