@@ -18,11 +18,12 @@ h1 {
     padding: 10px;
     height: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 button{
     background-color: transparent;
-    color: rgb(132, 100, 154);
-    border-color: rgb(195, 142, 213);
+    color: rgb(137, 91, 168);
+    border: solid 2px rgb(195, 128, 240);
 }
 #scroll {
     background-color: rgb(241, 175, 219);
@@ -35,7 +36,7 @@ button{
     padding: 20px;
     clear: both;
 }
-img {
+#imagen {
     margin: 10px;
     float: left;
     width: 500px;

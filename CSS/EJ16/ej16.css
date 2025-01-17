@@ -1,0 +1,54 @@
+#contenedor{
+    background-color: rgb(254, 247, 153);
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    height: 675px;
+}
+h1{
+color: red;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+color: rgb(73, 73, 108);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    color: rgb(96, 130, 29);
+    margin: 15px;
+}
+.boton{
+    background-color: transparent;
+    color: red;
+    border: 3px solid red;
+}
+#SupI{
+    float: left;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#SupD{
+    float: right;
+    margin: 20px;
+}
+#MedD{
+    float: right;
+    margin-right: 10px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#MedI{
+    float: left;
+    width: 50%;
+    clear: both;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Pie{
+    clear: both;
+    margin: 20px;
+}
+
+#MedI label, #MedD label{
+    color: rgb(151, 20, 153);
+}
